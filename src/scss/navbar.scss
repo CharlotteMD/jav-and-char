@@ -1,26 +1,38 @@
-.navbar, .footer {
-  font-family: $header;
-  background-color: $basic;
-  padding: 20px;
-  margin: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.navs {
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: center;
+  // width: 1000px;
 
-  button {
+
+  .navbar, .footer {
     font-family: $header;
-    font-size: 15px;
-    color: $additional;
-    background-color: $basic;
-    border: $basic solid 1px;
+    background-image: url("https://images.unsplash.com/photo-1483919114236-01e86550c193?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6be7f345022d0f7f1add3026154987fb&auto=format&fit=crop&w=1950&q=80");
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
-    a {
+
+    button {
+      font-family: $header;
+      font-size: 35px;
       color: $additional;
-      text-decoration: none;
-      font-size: 16px;
+      background-color: $basic;
+      border: $basic solid 1px;
+
+      a {
+        color: $additional;
+        text-decoration: none;
+        // border-radius: 20%;
+      }
     }
   }
 }
+
+
+
 
 .navbar {
   button {

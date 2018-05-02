@@ -2,3 +2,17 @@
 @import "navbar";
 @import "forms";
 @import "landing";
+
+body {
+  text-align: justify;
+  max-width: 1000px;
+}
+
+h1, h2, h4 {
+  text-align: center;
+  font-family: $header;
+}
+
+h2 {
+  font-size: 75px;
+}

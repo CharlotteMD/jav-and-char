@@ -1,12 +1,16 @@
+.intro {
+  font-family: $text;
+}
+
 .us {
   display: inline-flex;
 
   .carousel {
     margin: 20px;
+    background-color: pink;
 
     .slide {
       width: 500px;
-      max-height: auto;
       margin: 0 200px;
 
 
@@ -15,8 +19,7 @@
         flex-wrap: wrap;
         justify-content: center;
         border-radius: 50%;
-        width: 745px important;
-
+        width: 745px;
 
         .carousel-images {
           align-items: left;
@@ -24,14 +27,36 @@
       }
       .carousel-control {
         display: none;
-        // background-color: blue;
-        //   border-radius: 50%;
       }
     }
   }
 
   .met {
     max-width: 50%;
+
+    h4 {
+      font-size: 30px;
+      color: $basic;
+      padding: 5px 0px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 18px;
+      padding: 10px 0px;
+      max-width: 400px;
+    }
+  }
+}
+
+.click {
+  p {
+    font-size: 20px;
+    text-align: center;
+    font-family: $text;
   }
 
+  a {
+    color: $basic;
+  }
 }
