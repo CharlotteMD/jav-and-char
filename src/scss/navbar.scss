@@ -1,0 +1,40 @@
+.navbar, .footer {
+  font-family: $header;
+  background-color: $basic;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  button {
+    font-family: $header;
+    font-size: 15px;
+    color: $additional;
+    background-color: $basic;
+    border: $basic solid 1px;
+
+    a {
+      color: $additional;
+      text-decoration: none;
+      font-size: 16px;
+    }
+  }
+}
+
+.navbar {
+  button {
+    background: $basic;
+    color: $additional;
+    border-radius: 20%;
+    padding: 7px;
+  }
+}
+
+h6 {
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  margin: 10px;
+  color: $additional;
+}
