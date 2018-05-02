@@ -1,0 +1,37 @@
+.us {
+  display: inline-flex;
+
+  .carousel {
+    margin: 20px;
+
+    .slide {
+      width: 500px;
+      max-height: auto;
+      margin: 0 200px;
+
+
+      .carousel-inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 50%;
+        width: 745px important;
+
+
+        .carousel-images {
+          align-items: left;
+        }
+      }
+      .carousel-control {
+        display: none;
+        // background-color: blue;
+        //   border-radius: 50%;
+      }
+    }
+  }
+
+  .met {
+    max-width: 50%;
+  }
+
+}
