@@ -12,6 +12,7 @@ import AuthRoutes from './components/auth/AuthRoutes';
 import UserEdit from './components/auth/UserEdit';
 
 import Landing from './components/info/Landing';
+import Weddings from './components/info/Weddings';
 
 
 // import './index.css';
@@ -26,11 +27,12 @@ class App extends React.Component {
         <div>
 
           <Navbar />
-          <Link to="/"><div className="logo"><h1>React App</h1></div></Link>
+          <Link to="/"><div className="logo"><h1>Jav & Char</h1></div></Link>
 
           <AuthRoutes />
 
           <Route exact path="/" component={Landing}/>
+          <Route exact path="/weddings" component={Weddings}/>
 
           <Route exact path="/users/:id/edit" component={UserEdit}/>
           {/* <Route exact path="/users/:id" component={UserProfile}/> */}

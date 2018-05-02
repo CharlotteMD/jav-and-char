@@ -23,6 +23,10 @@ const Navbar = ({ history }) => {
             <a className="nav-link" href="/login"><button>Login</button></a>
         }
 
+        <a className="nav-link" href="/"><button>Home</button></a>
+
+        <a className="nav-link" href="/weddings"><button>Wedding Info</button></a>
+
         {Auth.isAuthenticated() &&
             <a className="nav-link" href={`/users/${Auth.getPayload().userId}`}><button>Your Profile</button></a>
         }
