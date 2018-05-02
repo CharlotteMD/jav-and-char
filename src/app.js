@@ -11,6 +11,13 @@ import AuthRoutes from './components/auth/AuthRoutes';
 
 import UserEdit from './components/auth/UserEdit';
 
+import Landing from './components/info/Landing';
+
+
+// import './index.css';
+// import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap-theme.css';
+
 class App extends React.Component {
 
   render() {
@@ -22,6 +29,8 @@ class App extends React.Component {
           <Link to="/"><div className="logo"><h1>React App</h1></div></Link>
 
           <AuthRoutes />
+
+          <Route exact path="/" component={Landing}/>
 
           <Route exact path="/users/:id/edit" component={UserEdit}/>
           {/* <Route exact path="/users/:id" component={UserProfile}/> */}
