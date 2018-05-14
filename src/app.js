@@ -9,10 +9,10 @@ import Footer from './components/utility/Footer';
 
 import AuthRoutes from './components/auth/AuthRoutes';
 
-import UserEdit from './components/auth/UserEdit';
+// import UserEdit from './components/auth/UserEdit';
 
 import Landing from './components/info/Landing';
-import Weddings from './components/info/Weddings';
+import WeddingRoutes from './components/info/WeddingRoutes';
 
 
 // import './index.css';
@@ -32,9 +32,9 @@ class App extends React.Component {
           <AuthRoutes />
 
           <Route exact path="/" component={Landing}/>
-          <Route exact path="/weddings" component={Weddings}/>
+          <WeddingRoutes />
 
-          <Route exact path="/users/:id/edit" component={UserEdit}/>
+          {/* <Route exact path="/users/:id/edit" component={UserEdit}/> */}
           {/* <Route exact path="/users/:id" component={UserProfile}/> */}
 
           <Footer />

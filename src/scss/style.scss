@@ -2,6 +2,7 @@
 @import "navbar";
 @import "forms";
 @import "landing";
+@import "weddings";
 
 body {
   text-align: justify;
@@ -15,4 +16,12 @@ h1, h2, h4 {
 
 h2 {
   font-size: 75px;
+}
+
+p {
+  font-family: $text;
+}
+
+a {
+  color: $basic;
 }

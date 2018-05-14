@@ -17,9 +17,9 @@ router.route('/login')
 //   .delete(secureRoute, users.delete);
 
 // INDEX
-// router.route('/questions')
-//   .get(questions.index)
-//   .post(secureRoute, questions.create);
+// router.route('/weddings')
+//   .get(weddings.index)
+//   .post(secureRoute, weddings.create);
 
 // SHOW
 // router.route('/questions/:id')
