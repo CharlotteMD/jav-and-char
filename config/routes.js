@@ -10,6 +10,9 @@ router.route('/register')
 router.route('/login')
   .post(auth.login);
 
+router.route('/muslim/rsvp')
+  .post(auth.rsvp);
+
 // User page where you can view and edit your profile
 // router.route('/users/:id')
 //   .get(secureRoute, users.show)
