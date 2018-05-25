@@ -27,15 +27,8 @@ class Muslim extends React.Component {
 
           <p>We do hope, regardless of your personal beliefs, that you, our friends and family will want to support us throughout our wedding celebrations and marriage.</p>
 
-          <p>If you would like to attend this event, please RSVP here. Please RSVP separately for each person attending.</p>
+          <p>If you would like to attend this event, please <a href="/weddings/muslim/rsvp" >RSVP here.</a> Please RSVP separately for each person attending.</p>
 
-          <form>
-            <input className="shariah" type="text" name="firstName" placeholder="First Name"/>
-            <input className="shariah" type="text" name="lastName" placeholder="Last Name"/>
-            <input className="shariah" type="text" name="email" placeholder="Email Address"/>
-            <input className="shariah" type="text" name="diet" placeholder="Dietary Requirements"/>
-            <button className="rsvp">RSVP</button>
-          </form>
         </div>
 
       </div>

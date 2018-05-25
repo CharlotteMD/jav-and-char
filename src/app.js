@@ -13,6 +13,7 @@ import AuthRoutes from './components/auth/AuthRoutes';
 
 import Landing from './components/info/Landing';
 import WeddingRoutes from './components/info/WeddingRoutes';
+import RsvpRoutes from './components/rsvp/RsvpRoutes';
 
 
 // import './index.css';
@@ -33,6 +34,7 @@ class App extends React.Component {
 
           <Route exact path="/" component={Landing}/>
           <WeddingRoutes />
+          <RsvpRoutes />
 
           {/* <Route exact path="/users/:id/edit" component={UserEdit}/> */}
           {/* <Route exact path="/users/:id" component={UserProfile}/> */}
