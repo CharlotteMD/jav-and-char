@@ -1,6 +1,7 @@
 import React from 'react';
 
-const RsvpForm = ({ handleChange, handleSubmit, rsvp }) => {
+const RsvpForm = (props) => {
+  const { handleRsvpChange, handleSubmit, rsvp } = props;
   // const formIsInvalid = Object.keys(errors).some(key => errors[key]);
 
   return (
@@ -12,7 +13,7 @@ const RsvpForm = ({ handleChange, handleSubmit, rsvp }) => {
             type="text"
             name="firstName"
             placeholder="First Name"
-            onChange={handleChange}
+            onChange={handleRsvpChange}
             value={rsvp.firstName}
             className="form-control"
           />
@@ -24,7 +25,7 @@ const RsvpForm = ({ handleChange, handleSubmit, rsvp }) => {
             type="text"
             name="lastName"
             placeholder="Last Name"
-            onChange={handleChange}
+            onChange={handleRsvpChange}
             value={rsvp.lastName}
             className="form-control"
           />
@@ -36,7 +37,7 @@ const RsvpForm = ({ handleChange, handleSubmit, rsvp }) => {
             type="text"
             name="email"
             placeholder="Email Address"
-            onChange={handleChange}
+            onChange={handleRsvpChange}
             value={rsvp.email}
             className="form-control"
           />
@@ -48,7 +49,7 @@ const RsvpForm = ({ handleChange, handleSubmit, rsvp }) => {
             type="text"
             name="diet"
             placeholder="Dietary Requirements"
-            onChange={handleChange}
+            onChange={handleRsvpChange}
             value={rsvp.diet}
             className="form-control"
           />

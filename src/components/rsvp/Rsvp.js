@@ -15,7 +15,9 @@ class Rsvp extends React.Component {
     }
   };
 
+
   handleRsvpChange = ({ target: { name, value }}) => {
+    console.log('hitting');
     const rsvp = Object.assign({}, this.state.rsvp, { [name]: value });
     this.setState({ rsvp });
     console.log('rsvp info: ', rsvp);
@@ -26,7 +28,7 @@ class Rsvp extends React.Component {
     e.preventDefault();
 
     Axios
-      .post('/api/muslim/rsvp', this.state.rsvp)
+      .post('/api/weddings/muslim/rsvp', this.state.rsvp)
       .then(res => {
         console.log('the response from the api', res);
         Auth.setToken(res.data.token);
