@@ -2,7 +2,7 @@ import React from 'react';
 import Axios from 'axios';
 
 import RsvpForm from './RsvpForm';
-import Auth from '../../lib/Auth';
+// import Auth from '../../lib/Auth';
 
 class Rsvp extends React.Component {
 
@@ -15,6 +15,10 @@ class Rsvp extends React.Component {
     }
   };
 
+  // doSomething = function (e) {
+  //   alert('it works!');
+  //   e.preventDefault();
+  // }
 
   handleRsvpChange = ({ target: { name, value }}) => {
     console.log('hitting');
@@ -26,12 +30,13 @@ class Rsvp extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
+    console.log('hitting');
 
     Axios
       .post('/api/weddings/muslim/rsvp', this.state.rsvp)
       .then(res => {
         console.log('the response from the api', res);
-        Auth.setToken(res.data.token);
+        // Auth.setToken(res.data.token);
         this.props.history.push('/');
       })
       .catch(err => console.log(err));
@@ -47,6 +52,7 @@ class Rsvp extends React.Component {
           rsvp={this.state.rsvp}
           handleRsvpChange={this.handleRsvpChange}
           handleSubmit={this.handleSubmit}
+          // doSomething={this.doSomething}
         />
       </div>
     );

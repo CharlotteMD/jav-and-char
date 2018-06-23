@@ -2,6 +2,7 @@ const router = require('express').Router();
 
 // REQ controllers, auth & secure route
 const auth  = require('../controllers/auth');
+const rsvp  = require('../controllers/rsvp');
 // const secureRoute = require('../lib/secureRoute');
 
 router.route('/register')
@@ -11,7 +12,7 @@ router.route('/login')
   .post(auth.login);
 
 router.route('/weddings/muslim/rsvp')
-  .post(auth.rsvp);
+  .post(rsvp.create);
 
 // User page where you can view and edit your profile
 // router.route('/users/:id')

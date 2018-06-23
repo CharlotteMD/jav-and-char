@@ -1,7 +1,10 @@
 import React from 'react';
 
-const RsvpForm = (props) => {
-  const { handleRsvpChange, handleSubmit, rsvp } = props;
+const RsvpForm = ({ handleRsvpChange, handleSubmit, rsvp }) => {
+
+
+// const RsvpForm = (props) => {
+//   const { handleRsvpChange, handleSubmit, rsvp } = props;
   // const formIsInvalid = Object.keys(errors).some(key => errors[key]);
 
   return (
