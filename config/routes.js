@@ -15,7 +15,7 @@ router.route('/weddings/muslim/rsvp')
   .post(rsvp.create);
 
 router.route('/weddings/muslim/guestlist')
-  .get(rsvp.show);
+  .get(rsvp.index);
 
 // User page where you can view and edit your profile
 // router.route('/users/:id')
