@@ -28,6 +28,8 @@ const Navbar = ({ history }) => {
 
           <a className="nav-link" href="/weddings"><button>Wedding Info</button></a>
 
+          <a className="nav-link" href="/weddings/muslim/rsvp"><button>RSVP</button></a>
+
           {Auth.isAuthenticated() &&
               <a className="nav-link" href={`/users/${Auth.getPayload().userId}`}><button>Your Profile</button></a>
           }

@@ -51,7 +51,7 @@ class Landing extends React.Component {
         </Carousel>
 
       <div className="click">
-        <p>Click here for links</p>
+        <p>We wanted to put together all the information in one place.  If Shariah marriage is new to you, <a href="/weddings/">click here</a> to find out more about what is involved and why we have decided to do it.  You can read about our plans for the day and how we intend to celebrate with you all <a href="/weddings/muslim/">here.</a></p>
       </div>
       </div>
     </div>
