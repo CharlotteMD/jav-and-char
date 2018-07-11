@@ -14,26 +14,32 @@ class GuestList extends React.Component {
   };
 
   componentDidMount() {
+    console.log('hitting');
     Axios
+
       .get('/api/weddings/muslim/guestlist')
       .then(res => {
         this.setState({ rsvp: res.data }, () => console.log(this.state.rsvp));
-     })
+      })
       .catch(err => console.log(err));
-}
+  }
 
   render() {
 
     return (
       <div className="guestlist">
         <h1>Guest List</h1>
-        
-       <h2> {this.state.rsvp.firstName}</h2>
-       
-        </div>
-        );
-      }
-    }
+
+        { this.state.rsvps.map((rsvp) => {
+          return <p key={rsvp.firstName}>{rsvp.firstName}</p>;
+        })}
+
+
+
+      </div>
+    );
+  }
+}
 
 
 export default GuestList;
