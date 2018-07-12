@@ -2,7 +2,8 @@ const router = require('express').Router();
 
 // REQ controllers, auth & secure route
 const auth  = require('../controllers/auth');
-const rsvp  = require('../controllers/rsvp');
+// const rsvp  = require('../controllers/rsvp');
+const guestbook  = require('../controllers/guestbook');
 // const secureRoute = require('../lib/secureRoute');
 
 router.route('/register')
@@ -11,11 +12,17 @@ router.route('/register')
 router.route('/login')
   .post(auth.login);
 
-router.route('/weddings/muslim/rsvp')
-  .post(rsvp.create);
+// router.route('/weddings/muslim/rsvp')
+//   .post(rsvp.create);
+//
+// router.route('/weddings/muslim/guestlist')
+//   .get(rsvp.index);
 
-router.route('/weddings/muslim/guestlist')
-  .get(rsvp.index);
+router.route('/guestbook/new')
+  .post(guestbook.create);
+
+router.route('/guestbook/')
+  .get(guestbook.index);
 
 // User page where you can view and edit your profile
 // router.route('/users/:id')
