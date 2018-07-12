@@ -1,18 +1,24 @@
-.intro {
-  font-family: $text;
+* {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .us {
   display: inline-flex;
+  font-family: $text;
+  font-size: 16px;
+  color: $additional;
+
 
   .carousel {
-    margin: 20px;
+    margin: 16px;
     background-color: pink;
-
+    max-width: 550px;
+    max-height: 550px;
+    
     .slide {
       width: 500px;
       margin: 0 200px;
-
 
       .carousel-inner {
         display: flex;
@@ -31,27 +37,26 @@
     }
   }
 
-  .met {
+  .intro {
     max-width: 50%;
-
-    h4 {
-      font-size: 30px;
-      color: $basic;
-      padding: 5px 0px;
-      font-weight: bold;
-    }
+    padding: 15px 3px;
 
     p {
-      font-size: 18px;
       padding: 10px 0px;
       max-width: 400px;
     }
   }
 }
 
-.click {
-  p {
-    font-size: 20px;
+.celebrations {
+  h4 {
+    font-family: $header;
     text-align: center;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 16px;
+    padding: 30px 10px;
   }
 }

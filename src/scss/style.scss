@@ -4,9 +4,13 @@
 @import "landing";
 @import "weddings";
 
+* {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 body {
   text-align: justify;
-  max-width: 1000px;
 }
 
 h1, h2, h4 {

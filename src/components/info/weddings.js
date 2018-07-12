@@ -13,29 +13,29 @@ class Weddings extends React.Component {
 
     return (
       <div>
-        <h2>The Elephant in the Room</h2>
 
-        <div className="container">
-          <h3>Religion is so important to both of us. God is central to our relationship so it is very important to us that God is a part of all our celebrations.</h3>
-          <p>Javed is Muslim so we have decided to have a Shariah wedding first of all.  As part of this ceremony, Javed is required to throw a party for his brides friends and family.  We have decided to combine this with our engagement celebrations. </p>
-          <p>Charlotte is Christian and she wouldnt feel properly married without a church blessing which we will combine with our legal wedding.</p>
-          <p>We do hope, regardless of your personal beliefs, that you, our friends and family will want to support us throughout our wedding celebrations and marriage.</p>
+        <h2>DATE OF NIKAH</h2>
 
-          <h3>Our Celebrations</h3>
+        <div className="intro">
 
-          <p>In line with Javeds beliefs, we plan to arrange our Shariah marriage as soon as possible.</p>
-          <p><a href="/weddings/muslim" >Click here</a> to learn more about the Shariah ceremony and our plans for this event.</p>
+          <p>As you will know, religion is so important to both of us.</p>
 
-          <p>We absolutely cant wait to be legally married but all in good time!</p>
-          <p>Watch this space for future plans for this event.</p>
+          <p>Javed is Muslim so we have decided to have a Shariah wedding first of all.  As part of this ceremony, Javed is required to throw a party for his brides friends and family.</p>
+            
+          <p>When we decide to get legally married, we plan to have a Christian blessing in line with Charlotte's faith</p>
+
+          <h5>We do hope, regardless of your personal beliefs, that you, our friends and family will want to support us throughout our wedding celebrations and marriage.</h5>
+
+          <h5>If you would like to attend this event, please <a href="/weddings/muslim/rsvp" >RSVP here.</a> Please RSVP separately for each person attending.</h5>
 
         </div>
 
+         <div className="celebrations">
+          <h3>Our Celebrations</h3>
 
+          <p>We will have the actual ceremony at Javs house with just our immediate family.  As part of the arrangement, Javed is required (and delighted to!) throw a party for Charlottes friends and family.  We would be delighted if you could join us for this day.  We plan to host a barbeque in the back garden of Javeds family home. Javed has booked the bouncy castles and promised Charlotte an ice-cream van! We hope to see as many of you there as who feel comfortable attending.  This will be the start of Javed and Charlotte creating their married life together and so as part of that we hope our friends and family will enjoy getting to know each other at this party and at other events we plan to throw in the future! Please note that in respect of Muslim customs, this event will be dry.</p>
 
-
-
-
+        </div>
       </div>
     );
   }

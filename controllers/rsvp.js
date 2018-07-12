@@ -9,11 +9,17 @@ function rsvpsCreate(req, res, next) {
     .catch(next);
 }
 
+function rsvpsIndex(req, res, next) {
+  Rsvp
+    .find()
+    .exec()
+    .then(rsvps => res.json(rsvps))
+    .catch(next);
+}
+
 function rsvpsShow(req, res, next) {
   Rsvp
     .findById(req.params.id)
-    // .populate({path: 'bids', model: 'Auction', populate: {path: 'hotel', model: 'Hotel'}})
-    // .populate('hotels')
     .exec()
     .then((rsvp) => {
       if(!rsvp) return res.notFound();
@@ -50,6 +56,7 @@ function rsvpsDelete(req, res, next) {
 
 module.exports = {
   create: rsvpsCreate,
+  index: rsvpsIndex,
   show: rsvpsShow,
   update: rsvpsUpdate,
   delete: rsvpsDelete
