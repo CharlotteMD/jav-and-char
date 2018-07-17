@@ -1,28 +1,19 @@
 import React, { Component } from 'react';
 import Axios from 'axios';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 // import moment from 'moment';
 // import SearchBar from  '../utility/SearchBar';
 // import _ from 'lodash';
 
-class AuctionsIndex extends Component {
-      state = {
-        auctions: [{
-          hotel: {
-            name: '',
-            image: '',
-            location: '',
-            amenities: '',
-            stars: ''
-          },
-        ]}
+class GuestbookIndex extends Component {
+      state = {}
 
 
       componentDidMount() {
         Axios
-          .get('/api/auctions')
-          .then(res => this.setState({ auctions: res.data }))
+          .get('/api/guestbook')
+          .then(res => this.setState({ guestbook: res.data }))
           .catch(err => console.log(err));
       }
 
@@ -34,14 +25,14 @@ class AuctionsIndex extends Component {
         return(
           <div className="auction-index">
             <div className="container">
-              <h1>Current Auctions</h1>
+              <h1>Current Guestbook</h1>
 
 
               <div>
 
                 <div className="row">
 
-                  { this.state.auctions.map((auction, i) => {
+                  {/* { this.state.auctions.map((auction, i) => {
                     return <div className="col-md-4 col-sm-6 col-xs-12" key={i}>
                       <div className="card">
                         <ul>
@@ -71,7 +62,7 @@ class AuctionsIndex extends Component {
                         </ul>
                       </div>
                     </div>;
-                  })}
+                  })} */}
 
 
                 </div>
@@ -83,4 +74,4 @@ class AuctionsIndex extends Component {
 }
 
 
-export default AuctionsIndex;
+export default GuestbookIndex;

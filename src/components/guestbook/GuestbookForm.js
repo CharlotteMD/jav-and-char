@@ -1,15 +1,15 @@
 import React from 'react';
 
-const GuestbookForm = ({ handleGuestbookChange, handleSubmit, guestbook }) => {
+const GuestbookForm = ({ handleGuestbookChange, handleGuestbookSubmit, guestbook }) => {
 
 
 // const GuestbookForm = (props) => {
-//   const { handleGuestbookChange, handleSubmit, guestbook } = props;
+//   const { handleGuestbookChange, handleGuestbookSubmit, guestbook } = props;
   // const formIsInvalid = Object.keys(errors).some(key => errors[key]);
 
   return (
     <div className="container">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleGuestbookSubmit}>
 
         <div className="form-group">
           <input

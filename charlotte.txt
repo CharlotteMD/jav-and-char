@@ -4,8 +4,22 @@ Home - invite page - date, photos, links to other pages
 
 Wedding info - what is a nikah marriage
 
-Wedding info - plans for our day - bbq, ice cream, bouncy castles, lovely to see some/all of you to celebrate this special day with us 
+Wedding info - plans for our day - bbq, ice cream, bouncy castles, lovely to see some/all of you to celebrate this special day with us
 
 RSVP - add yourself to the guestlist
 
 GuestBook page
+
+
+Tidy up styling
+Fix navbar links
+Add Celebration info
+Add Shariah info
+Fix guestbook Submit
+Add filestack
+Create guestbook INDEX
+Think about edit/delete for GuestBook
+Think about adding extra comments - yearbook
+Create overall security for site
+Buy domain and firebase
+Add google map directions to javs

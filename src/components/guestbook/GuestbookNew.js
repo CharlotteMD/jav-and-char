@@ -4,29 +4,32 @@ import Axios from 'axios';
 import GuestbookForm from './GuestbookForm';
 
 class GuestbookNew extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleGuestbookSubmit = this.handleGuestbookSubmit.bind(this);
 
-  state = {
-    guestbook: {
-      name: '',
-      comment: ''
-    }
-  };
+    this.state = {
+      guestbook: {
+        name: '',
+        comment: ''
+      }
+    };
+  }
 
 
   handleGuestbookChange = ({ target: { name, value }}) => {
-    console.log('hitting');
     const guestbook = Object.assign({}, this.state.guestbook, { [name]: value });
     this.setState({ guestbook });
     console.log('guestbook info: ', guestbook);
   }
 
 
-  handleSubmit = (e) => {
+  handleGuestbookSubmit = (e) => {
     e.preventDefault();
     console.log('hitting');
 
     Axios
-      .post('/api/weddings/muslim/guestbook', this.state.guestbook)
+      .post('/api/guestbook/new', this.state.guestbook)
       .then(res => {
         console.log('the response from the api', res);
         // Auth.setToken(res.data.token);
@@ -44,7 +47,7 @@ class GuestbookNew extends React.Component {
         <GuestbookForm
           guestbook={this.state.guestbook}
           handleGuestbookChange={this.handleGuestbookChange}
-          handleSubmit={this.handleSubmit}
+          handleGuestbookSubmit={this.handleGuestbookSubmit}
           // doSomething={this.doSomething}
         />
       </div>
@@ -52,4 +55,5 @@ class GuestbookNew extends React.Component {
   }
 }
 
-export default Guestbook;
+
+export default GuestbookNew;

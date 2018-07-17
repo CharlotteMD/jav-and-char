@@ -26,7 +26,43 @@ class Landing extends React.Component {
             <div className="carousel">
               <img className="carousel-images" alt="Harrods repository" src="../assets/images/jc1.jpg" />
               <Carousel.Caption>
-                <h3>A weekend stroll along the Thames Path</h3>
+                <h3>Weekends along the Thames</h3>
+              </Carousel.Caption>
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className="carousel">
+              <img className="carousel-images" alt="Fulham" src="../assets/images/fulham.jpg" />
+              <Carousel.Caption>
+                <h3>QPR vs Fulham!</h3>
+              </Carousel.Caption>
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className="carousel">
+              <img className="carousel-images" alt="Henley" src="../assets/images/henley.jpg" />
+              <Carousel.Caption>
+                <h3>Henley</h3>
+              </Carousel.Caption>
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className="carousel">
+              <img className="carousel-images" alt="Dressed to impress" src="../assets/images/wedding.jpg" />
+              <Carousel.Caption>
+                <h3>Dressed to impress for a friend's wedding</h3>
+              </Carousel.Caption>
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <div className="carousel">
+              <img className="carousel-images" alt="Theatre" src="../assets/images/theatre.jpg" />
+              <Carousel.Caption>
+                <h3>At the theatre</h3>
               </Carousel.Caption>
             </div>
           </Carousel.Item>
@@ -51,7 +87,7 @@ class Landing extends React.Component {
         </Carousel>
 
       <div className="click">
-        <p>We wanted to put together all the information in one place.  If Shariah marriage is new to you, <a href="/weddings/">click here to find out more about what is involved and why we have decided to do it.</a> <br />  You can read about our plans for the day and <a href="/weddings/muslim/">how we intend to celebrate with you all here.</a><br /> We hope you can join us! <a href="/weddings/muslim/rsvp">Please RSVP here.</a>To see who's coming and to leave us a message, <a href="/weddings/muslim/guestlist">click here.</a></p>
+        <p>We wanted to put together all the information in one place.  If Shariah marriage is new to you, <a href="/weddings/muslim">click here to find out more about what is involved and why we have decided to do it.</a> <br />  You can read about our plans for the day and <a href="/weddings/">how we intend to celebrate with you all here.</a><br /> We hope you can join us! <a href="/weddings/muslim/rsvp">Please RSVP here.</a>To see who's coming and to leave us a message, <a href="/weddings/muslim/guestlist">click here.</a></p>
       </div>
       </div>
     </div>
