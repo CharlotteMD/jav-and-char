@@ -8,8 +8,8 @@ import Muslim from './muslim';
 const WeddingRoutes = () => {
   return (
     <Switch>
-      <Route exact path="/weddings/muslim" component={Muslim} />
-      <Route exact path="/weddings" component={Weddings} />
+      <Route exact path="/nikah/info" component={Muslim} />
+      <Route exact path="/nikah/celebration" component={Weddings} />
     </Switch>
   );
 };

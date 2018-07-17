@@ -8,7 +8,7 @@ import RsvpGoogle from './RsvpGoogle';
 const WeddingRoutes = () => {
   return (
     <Switch>
-      <Route exact path="/weddings/muslim/rsvp" component={RsvpGoogle} />
+      <Route exact path="/nikah/rsvp" component={RsvpGoogle} />
       {/* <Route exact path="/weddings/muslim/guestlist" component={GuestList} /> */}
     </Switch>
   );
