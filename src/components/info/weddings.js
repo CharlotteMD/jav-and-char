@@ -5,6 +5,8 @@ import React from 'react';
 
 // import { Carousel } from 'react-bootstrap';
 
+import Map from './map';
+
 
 class Weddings extends React.Component {
 
@@ -15,13 +17,25 @@ class Weddings extends React.Component {
       <div>
 
         <h2>DATE OF NIKAH</h2>
+        <h3>Time</h3>
+        <h3>Location</h3>
 
 
         <div className="celebrations">
-          <h3>Our Celebrations</h3>
 
-          <p>We will have the ceremony at Javs house with just our immediate family.  As part of the arrangement, Javed is required (and delighted to!) throw a party for Charlottes friends and family.  We would be delighted if you could join us for this day.</p>
-          <p>We plan to host a barbeque in the back garden of Javeds family home. Javed has booked the bouncy castles and promised Charlotte an ice-cream van! We hope to see as many of you there as who feel comfortable attending.  This will be the start of Javed and Charlotte creating their married life together and so as part of that we hope our friends and family will enjoy getting to know each other at this party and at other events we plan to throw in the future! Please note that in respect of Muslim customs, this event will be alcohol-free.</p>
+          <p>We invite you to celebrate with us on **** at Javed’s family home ***.</p>
+
+          {/* <Map /> */}
+
+          <p>The ceremony will start at ***, followed by a party in the garden. We hope you will be able to witness our Nikah ceremony and then celebrate with us for the afternoon.<br></br>
+
+            <br></br>The dress code is smart casual - for gentlemen, chinos and a shirt would be perfect.  For ladies, the dress code is a little stricter. In respect of the Muslim tradition, we ask that ladies cover skin. Trousers or a long skirt would be suitable, and if you could cover your shoulders and arms for the ceremony, that would be fab.  Please avoid low cut tops if possible. We hope you will join us on the bouncy castle so no need for anything too fancy!<br></br>
+
+            <br></br>All the food and drink will be halal.  Please let us know if you have any other dietary requirements.<br></br>
+
+            <br></br>If you have any questions, please email us at <a href="mailto:javandchar@gmail.com">JavandChar@gmail.com</a>.<br></br>
+
+          </p>
 
           <div className="click">
             <p>If Shariah marriage is new to you, <a href="/nikah/info">click here to find out more about what is involved and why we have decided to do it.</a> <br /> We hope you can join us! <a href="/nikah/rsvp">Please RSVP here.</a>To see who's coming and to leave us a message, <a href="/guestbook">click here.</a></p>
