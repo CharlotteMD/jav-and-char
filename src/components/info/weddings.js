@@ -25,7 +25,7 @@ class Weddings extends React.Component {
 
           <p>We invite you to celebrate with us on **** at Javed’s family home ***.</p>
 
-          <iframe style={{width:600, height:450}} src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJcxZChCr-dUgRRUkMxV3ydNU&key=AIzaSyC29Ol986YU38HL1WT-j1U9gZ7wZ0KDhNI" allowFullScreen></iframe>
+          <iframe style={{width: 600, height: 450}} src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJcxZChCr-dUgRRUkMxV3ydNU&key=AIzaSyC29Ol986YU38HL1WT-j1U9gZ7wZ0KDhNI" allowFullScreen></iframe>
 
           <p>The ceremony will start at ***, followed by a party in the garden. We hope you will be able to witness our Nikah ceremony and then celebrate with us for the afternoon.<br></br>
 
