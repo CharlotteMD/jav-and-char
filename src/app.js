@@ -33,7 +33,7 @@ class App extends React.Component {
 
           <AuthRoutes />
 
-          <Route exact path="/" component={Landing}/>
+          <Route exact path="/home" component={Landing}/>
           <WeddingRoutes />
           <RsvpRoutes />
           <GuestbookRoutes />

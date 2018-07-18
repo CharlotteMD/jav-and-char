@@ -26,9 +26,9 @@ class Muslim extends React.Component {
 
             <h5>We do hope, regardless of your personal beliefs, that you, our friends and family will want to support us throughout our wedding celebrations and marriage.</h5>
 
-            <h5>To hear more about how we intend to celebrate, read on <a href="/weddings">here</a></h5>
+            <h5>To hear more about how we intend to celebrate, read on <a href="/nikah/celebration">here</a></h5>
 
-            <h5>If you would like to attend this event, please <a href="/weddings/muslim/rsvp" >RSVP here.</a> Please RSVP separately for each person attending.</h5>
+            <h5>If you would like to attend this event, please <a href="/nikah/rsvp" >RSVP here.</a> Please RSVP separately for each person attending.</h5>
 
           </div>
 
