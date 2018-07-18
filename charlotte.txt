@@ -11,18 +11,29 @@ RSVP - add yourself to the guestlist
 GuestBook page
 
 
+TO DO
 Tidy up styling
-Fix navbar links
-Add Celebration info
+  Home page overhaul
+  Celebration overhaul - fix directions
+  RSVP center and styling through google
+
+Guestbook entirety
+
 Add Shariah info
 Fix guestbook Submit
 Add filestack
 Create guestbook INDEX
 Think about edit/delete for GuestBook
-Think about adding extra comments - yearbook
+
 Create overall security for site
-Buy domain and firebase
+Put on firebase
+
+DONE
+Fix navbar links
+Add Celebration info
+Buy domain
 Add google map directions to javs
+
 
 
 <!DOCTYPE html>
