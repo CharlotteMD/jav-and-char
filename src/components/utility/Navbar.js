@@ -3,12 +3,12 @@ import { withRouter } from 'react-router-dom';
 
 import Auth from '../../lib/Auth';
 
-const Navbar = ({ history }) => {
-  function logout(e) {
-    e.preventDefault();
-    Auth.logout();
-    history.push('/');
-  }
+// const Navbar = ({ history }) => {
+//   function logout(e) {
+//     e.preventDefault();
+//     Auth.logout();
+//     history.push('/');
+//   }
 
   return(
     <nav >

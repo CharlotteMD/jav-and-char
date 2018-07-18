@@ -29,7 +29,7 @@ class App extends React.Component {
         <div>
 
           <Navbar />
-          <Link to="/"><div className="logo"><h1>Jav & Char</h1></div></Link>
+          <Link to="/home"><div className="logo"><h1>Jav & Char</h1></div></Link>
 
           <AuthRoutes />
 

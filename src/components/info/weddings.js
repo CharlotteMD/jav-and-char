@@ -5,7 +5,7 @@ import React from 'react';
 
 // import { Carousel } from 'react-bootstrap';
 
-import Map from './map';
+// import Map from './map';
 
 
 class Weddings extends React.Component {
