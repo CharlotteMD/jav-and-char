@@ -38,7 +38,7 @@ class Weddings extends React.Component {
           </p>
 
           <div className="click">
-            <p>If Shariah marriage is new to you, <a href="/nikah/info">click here to find out more about what is involved and why we have decided to do it.</a> <br /> We hope you can join us! <a href="/nikah/rsvp">Please RSVP here.</a>To see who's coming and to leave us a message, <a href="/guestbook">click here.</a></p>
+            <p>If Shariah marriage is new to you, <a href="/nikah/info">click here to find out more about what is involved and why we have decided to do it.</a> <br /> We hope you can join us! <a href="/nikah/rsvp">Please RSVP here.</a>To see who is coming and to leave us a message, <a href="/guestbook">click here.</a></p>
           </div>
 
         </div>

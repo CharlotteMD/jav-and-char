@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 
-import Weddings from './Weddings';
+import Weddings from './weddings';
 import Muslim from './muslim';
 
 const WeddingRoutes = () => {
