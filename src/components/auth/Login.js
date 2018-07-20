@@ -43,6 +43,8 @@ class Login extends React.Component {
           handleSubmit={this.handleSubmit}
           errors={this.state.errors}
         />
+
+        <h3>Forgotten the login details? <a href="mailto:javandchar@gmail.com">Please contact Javed or Charlotte.</a></h3>
       </div>
     );
   }

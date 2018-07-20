@@ -7,6 +7,8 @@ import React from 'react';
 
 // import Map from './map';
 
+import Auth from '../../lib/Auth';
+
 
 class Weddings extends React.Component {
 
@@ -16,12 +18,17 @@ class Weddings extends React.Component {
     return (
       <div>
 
-        <h2>DATE OF NIKAH</h2>
-        <h3>Time</h3>
-        <h3>Location</h3>
+        { !Auth.isAuthenticated() &&
+          <h3>Please <a href="/login">login</a> to see the details of our wedding.</h3>
+        }
 
+        { Auth.isAuthenticated() &&
 
-        <div className="celebrations">
+          <div className="celebrations">
+
+          <h2>DATE OF NIKAH</h2>
+          <h3>Time</h3>
+          <h3>Location</h3>
 
           <p>We invite you to celebrate with us on **** at Javed’s family home ***.</p>
 
@@ -41,7 +48,7 @@ class Weddings extends React.Component {
             <p>If Shariah marriage is new to you, <a href="/nikah/info">click here to find out more about what is involved and why we have decided to do it.</a> <br /> We hope you can join us! <a href="/nikah/rsvp">Please RSVP here.</a>To see who is coming and to leave us a message, <a href="/guestbook">click here.</a></p>
           </div>
 
-        </div>
+        </div>}
       </div>
     );
   }

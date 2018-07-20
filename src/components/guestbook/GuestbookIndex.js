@@ -5,6 +5,7 @@ import Axios from 'axios';
 // import moment from 'moment';
 // import SearchBar from  '../utility/SearchBar';
 // import _ from 'lodash';
+import Auth from '../../lib/Auth';
 
 class GuestbookIndex extends Component {
       state = {}
@@ -25,47 +26,25 @@ class GuestbookIndex extends Component {
         return(
           <div className="auction-index">
             <div className="container">
-              <h1>Current Guestbook</h1>
+              <h1>Guestbook</h1>
 
 
               <div>
 
+                { !Auth.isAuthenticated() &&
+
+                <h3>Please <a className="nav-link" href="/login">Login</a> to view our Guestbook.</h3> }
+
+                { Auth.isAuthenticated() &&
+
                 <div className="row">
 
-                  {/* { this.state.auctions.map((auction, i) => {
-                    return <div className="col-md-4 col-sm-6 col-xs-12" key={i}>
-                      <div className="card">
-                        <ul>
-                          <li>
-                            <a href={`hotels/${auction.hotel.id}`} className="hotelShow">
-                              <h3>{auction.hotel.name}</h3>
-                            </a>
-                          </li>
-                          <li>
-                            <img src={auction.hotel.image} alt={auction.hotel.name} >
-                            </img>
-                          </li>
-                          {' '}
-                          <li>
-                            From: <span>{moment(auction.checkInDate).format('do MMMM, YYYY')}</span>, for <span>{auction.nights}</span> nights
-                          </li>
-                          <li>
-                            Max <span>{auction.maxGuests}</span> Guests
-                          </li>
-
-                          <div className="showlink">
-                            <Link to={`/auctions/${auction.id}`}>
-                              <button>View Auction</button>
-                            </Link>
-                          </div>
-
-                        </ul>
-                      </div>
-                    </div>;
-                  })} */}
 
 
-                </div>
+
+                </div> }
+
+
               </div>
             </div>
           </div>

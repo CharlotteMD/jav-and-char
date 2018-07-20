@@ -4,6 +4,7 @@ import React from 'react';
 // import Axios from 'axios';
 
 // import { Carousel } from 'react-bootstrap';
+import Auth from '../../lib/Auth';
 
 
 class Muslim extends React.Component {
@@ -15,6 +16,12 @@ class Muslim extends React.Component {
 
         <div className="shariah">
           <h4>Shariah Marriage</h4>
+
+          { !Auth.isAuthenticated() &&
+
+          <h3>Please <a className="nav-link" href="/login">Login</a> to learn more.</h3> }
+
+          { Auth.isAuthenticated() &&
 
           <div className="intro">
 
@@ -30,7 +37,7 @@ class Muslim extends React.Component {
 
             <h5>If you would like to attend this event, please <a href="/nikah/rsvp" >RSVP here.</a> Please RSVP separately for each person attending.</h5>
 
-          </div>
+          </div>}
 
 
           </div>

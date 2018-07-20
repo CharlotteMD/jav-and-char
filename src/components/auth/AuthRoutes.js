@@ -9,7 +9,7 @@ const AuthRoutes = () => {
   return (
     <Switch>
       <Route exact path="/login" component={Login} />
-      <Route exact path="/register" component={Register} />
+      <Route exact path="/maremotos" component={Register} />
     </Switch>
   );
 };

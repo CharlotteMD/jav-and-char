@@ -3,6 +3,8 @@ import React from 'react';
 
 import { BrowserRouter as Link } from 'react-router-dom';
 
+import Auth from '../../lib/Auth';
+
 
 import { Carousel } from 'react-bootstrap';
 // import './index.css';
@@ -86,9 +88,15 @@ class Landing extends React.Component {
           </Carousel.Item>
         </Carousel>
 
-      <div className="click">
-        <p>We wanted to put together all the information in one place.  If Shariah marriage is new to you, <a href="/nikah/info">click here to find out more about what is involved and why we have decided to do it.</a> <br />  You can read about our plans for the day and <a href="/nikah/celebration">how we intend to celebrate with you all here.</a><br /> We hope you can join us! <a href="/nikah/rsvp">Please RSVP here.</a>To see who's coming and to leave us a message, <a href="/guestbook">click here.</a></p>
-      </div>
+        { !Auth.isAuthenticated() &&
+          <h3>Please <a href="/login">login</a> to see more information.</h3>
+        }
+
+        { Auth.isAuthenticated() &&
+          <div className="click">
+            <p>We wanted to put together all the information in one place.  If Shariah marriage is new to you, <a href="/nikah/info">click here to find out more about what is involved and why we have decided to do it.</a> <br />  You can read about our plans for the day and <a href="/nikah/celebration">how we intend to celebrate with you all here.</a><br /> We hope you can join us! <a href="/nikah/rsvp">Please RSVP here.</a>To see who's coming and to leave us a message, <a href="/guestbook">click here.</a></p>
+          </div> }
+
       </div>
     </div>
     );
