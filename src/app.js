@@ -36,7 +36,7 @@ class App extends React.Component {
           <Route exact path="/" component={Landing}/>
           <WeddingRoutes />
           <RsvpRoutes />
-          <GuestbookRoutes />
+          {/* <GuestbookRoutes /> */}
 
           <Footer />
         </div>
