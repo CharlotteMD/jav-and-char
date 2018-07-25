@@ -6,33 +6,63 @@
   justify-content: center;
 }
 
-
-// Landing Page
-
-.details {
-  text-align: center;
-
-  h2 {
-    margin: 40px 0;
+.intro {
+  h3 {
+    font-size: 16px;
+    font-weight: normal;
   }
 
-  .click {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 50px 0px;
+  h4 {
+    font-size: 35px;
+    margin: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
 
-    .hibiscus {
-      // background-image: url("./assets/images/flower.png");
-      background-color: hotpink;
-      height: 170px;
-      width: 170px;
-      margin: 10px;
-      padding: 10px;
-      text-align: center;
-      font-size: 16px;
+  h5 {
 
+  }
+}
+
+.nikah {
+  margin: 30px 0;
+
+  h3 {
+    font-weight: bold;
+  }
+}
+
+.drive {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .hotels, .park, .address {
+    width: 250px;
+    height: 250px;
+    // border: solid 1px $basic;
+  }
+
+  ul {
+
+
+    li {
+      padding: 2px;
     }
   }
 
+
+  .park span {
+    color: $basic;
+  }
+
+  .hotels span {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+}
+
+.celebrations {
+  margin: 50px;
 }

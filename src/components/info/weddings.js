@@ -26,35 +26,63 @@ class Weddings extends React.Component {
 
           <div className="celebrations">
 
-          <h2>DATE OF NIKAH</h2>
-          <h3>Time</h3>
-          <h3>Location</h3>
+          <h2>Sunday 26th August, 2018</h2>
+          <h3>25 Croham Valley Road, South Croydon</h3>
 
-          <p>We invite you to celebrate with us on **** at Javed’s family home ***.</p>
+          <p>We invite you to celebrate with us on Sunday 26th August, at Javed’s family home in Croydon.</p>
 
-          <iframe style={{width: 600, height: 450}} src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJcxZChCr-dUgRRUkMxV3ydNU&key=AIzaSyC29Ol986YU38HL1WT-j1U9gZ7wZ0KDhNI" allowFullScreen></iframe>
+          <p>The ceremony will start at ***, followed by a party in the garden. We hope you will be able to witness our Nikah ceremony and then celebrate with us for the afternoon.</p>
 
-          <p>The ceremony will start at ***, followed by a party in the garden. We hope you will be able to witness our Nikah ceremony and then celebrate with us for the afternoon.<br></br>
+          <h4>Dress Code</h4>
+          <p>The dress code is smart casual - for gentlemen, chinos and a shirt would be perfect.  For ladies, the dress code is a little stricter. In respect of the Muslim tradition, we ask that ladies cover skin. Trousers or a long skirt would be suitable, and if you could cover your shoulders and arms for the ceremony, that would be fab.  Please avoid low cut tops if possible. We hope you will join us on the bouncy castle so no need for anything too fancy!</p>
 
-            <br></br>The dress code is smart casual - for gentlemen, chinos and a shirt would be perfect.  For ladies, the dress code is a little stricter. In respect of the Muslim tradition, we ask that ladies cover skin. Trousers or a long skirt would be suitable, and if you could cover your shoulders and arms for the ceremony, that would be fab.  Please avoid low cut tops if possible. We hope you will join us on the bouncy castle so no need for anything too fancy!<br></br>
+          <h4>Food</h4>
+          <p>All the food and drink will be halal.  Please let us know if you have any other dietary requirements when you <a href="/nikah/rsvp">RSVP</a>.</p>
 
-            <br></br>All the food and drink will be halal.  Please let us know if you have any other dietary requirements.<br></br>
+          <h4>Directions</h4>
 
-            <br></br>If you have any questions, please email us at <a href="mailto:javandchar@gmail.com">JavandChar@gmail.com</a>.<br></br>
+          <div className="drive">
+            <iframe style={{width: 300, height: 300}} src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJIZ_bO6MAdkgR_7hd3o_H3zs&key=AIzaSyC29Ol986YU38HL1WT-j1U9gZ7wZ0KDhNI" allowfullscreen></iframe>
 
-          </p>
+            <div className="park">
+              <p>
+                <span>The Address is:</span><br></br><br></br>
+                25 Croham Valley Road,<br></br>
+                South Croydon,<br></br>
+                London,<br></br>
+                CR2 7JE
+              </p>
+            </div>
+            <div className="hotels">
+              <p><span>Hotels nearby are:</span>
+                <ul>
+                  <li><a href="https://www.premierinn.com/gb/en/hotels/england/greater-london/london/london-croydon-south-a212.html?cid=GLBC_CROCOO">Premier Inn (circa 3 mins)</a></li>
+                  <li><a href="https://www.travelodge.co.uk/hotels/484/London-South-Croydon-hotel?WT.tsrc=GHA_Organic&utm_campaign=GHA_London%20South%20Croydon&utm_medium=GHA_Organic&utm_source=google">Travelodge (circa 6 mins)</a></li>
+                  <li><a href="http://www3.hilton.com/en/hotels/united-kingdom/hilton-london-croydon-CROHNHN/index.html?WT.mc_id=zELWAKN0EMEA1HI2DMH3LocalSearch4DGGenericx6CROHNHN">Hilton (circa 10 mins)</a></li>
+                  <li><a href="https://www.hallmarkhotels.co.uk/hotels/hallmark-hotel-london-croydon-aerodrome/">Hallmark, London Croydon Aerodrome (circa 12 mins)</a></li>
+                  <li><a href="http://www.grandsapphire.co.uk/">The Grand Sapphire, Hotel (circa 12 mins)</a></li>
+                </ul>
+              </p>
+            </div>
+            <div className="park">
+                <p>There is parking along <span>Melville Avenue</span>, approximately a 10 minute walk from the house, or else you could try <span>Crest Road</span>, roughly a 10 minute walk. Slightly nearer is <span>Ballard's Way</span> (approx 5 min walk) or <span>Manor Way</span> which is 8 mins away. If you are lucky, you may find parking on <span>Croham Valley Road</span>.  The postcode for Jav's house is <span>CR2 7JE</span>.</p>
+            </div>
+
+          </div>
+
 
           <div className="click">
-            <p>If Shariah marriage is new to you,
-              <a href="/nikah/info">
-                click here to find out more about what is involved and why we have decided to do it.
-              </a>
-              <br />
-              We hope you can join us!
-              <a href="/nikah/rsvp">
+              <a href="/nikah/info"><button className="hibiscus" >
+                If Shariah marriage is new to you, click here to find out more about what is involved and why we have decided to do it.
+              </button></a>
+
+              <a href="/nikah/rsvp"><button className="hibiscus" >
                 Please RSVP here.
-              </a>
-            </p>
+              </button></a>
+
+              <a href="mailto:javandchar@gmail.com"><button className="hibiscus">
+                If you have any questions, please email us or ask one of our mothers!
+              </button></a>
           </div>
 
         </div>}
