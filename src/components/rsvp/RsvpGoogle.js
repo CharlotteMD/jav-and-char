@@ -20,10 +20,7 @@ const RsvpGoogle = () => {
 
       { Auth.isAuthenticated() &&
 
-
-
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdYO2hq72CSMofOgymhiYkf4TS_NScqwXweYilRaZZPkmExsg/viewform?embedded=true" width="700" height="520" frameBorder="0" marginHeight="0" marginWidth="0">Loading...</iframe> }
-
+      <iframe class="google" src="https://docs.google.com/forms/d/e/1FAIpQLSdYO2hq72CSMofOgymhiYkf4TS_NScqwXweYilRaZZPkmExsg/viewform?embedded=true" width="1000" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>}
 
     </div>
   );

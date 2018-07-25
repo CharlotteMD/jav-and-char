@@ -1,3 +1,38 @@
-// p {
-//   font-size: 18px;
-// }
+// RSVP Google Page
+
+.guestlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+// Landing Page
+
+.details {
+  text-align: center;
+
+  h2 {
+    margin: 40px 0;
+  }
+
+  .click {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0px;
+
+    .hibiscus {
+      // background-image: url("./assets/images/flower.png");
+      background-color: hotpink;
+      height: 170px;
+      width: 170px;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      font-size: 16px;
+
+    }
+  }
+
+}
