@@ -87,6 +87,7 @@ class Weddings extends React.Component {
             </div>
 
           </div>}
+
       </div>
     );
   }

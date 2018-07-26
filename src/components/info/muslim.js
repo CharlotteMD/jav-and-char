@@ -21,6 +21,7 @@ class Muslim extends React.Component {
 
           <h3>Please <a className="nav-link" href="/login">Login</a> to learn more.</h3> }
 
+
         { Auth.isAuthenticated() &&
 
             <div className="intro">
@@ -51,22 +52,22 @@ class Muslim extends React.Component {
 
               <h3>We do hope you will be able to witness our Nikah ceremony, followed by celebrating with us at our Walima.
 
-                In the future, we also plan to have a Christian blessing in line with Charlotte's faith and of course get legally married too.
+              In the future, we also plan to have a Christian blessing in line with Charlotte's faith and of course get legally married too.
 
-                We hope, regardless of your personal beliefs, that you, our friends and family will want to support us throughout our wedding celebrations and marriage.</h3>
+              We do hope, regardless of your personal beliefs, that you, our friends and family will want to support us throughout our wedding celebrations and marriage.</h3>
 
 
               <div className="click">
                 <a href="/nikah/celebration"><button className="hibiscus">
-                    To hear more about how we intend to celebrate, click here.
+                  To hear more about how we intend to celebrate, click here.
                 </button></a>
 
                 <a href="/nikah/rsvp"><button className="hibiscus">
-                    If you would like to attend this event, please RSVP here. Please RSVP separately for each person attending.
+                  If you would like to attend this event, please RSVP here. Please RSVP separately for each person attending.
                 </button></a>
 
                 <a href="mailto:javandchar@gmail.com"><button className="hibiscus">
-                    If you have any questions, please do email us.
+                  If you have any questions, please do email us.
                 </button></a>
               </div>
 

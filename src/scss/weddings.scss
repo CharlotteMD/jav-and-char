@@ -49,23 +49,30 @@
   }
 
   ul {
+  justify-content: space-between;
+
+  .hotels, .park, .address {
+    width: 250px;
+    height: 250px;
+  }
+
+  ul {
     li {
       padding: 2px;
     }
   }
-
-  span {
-    color: $basic;
-  }
-
-  .hotels span {
-    font-weight: bold;
-    // text-decoration: underline;
-    color: $basic;
-  }
-
 }
 
-.celebrations {
-  margin: 50px;
+  .celebrations {
+    margin: 50px;
+  }
+}
+
+span {
+  color: $basic;
+}
+
+.hotels span, .address span {
+  text-decoration: underline;
+  font-weight: bold;
 }
