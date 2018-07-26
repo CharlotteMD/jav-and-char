@@ -10,33 +10,6 @@
   color: $additional;
 
 
-  .carousel {
-    margin: 16px;
-    background-color: pink;
-    max-width: 550px;
-    max-height: 550px;
-    
-    .slide {
-      width: 500px;
-      margin: 0 200px;
-
-      .carousel-inner {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        border-radius: 50%;
-        width: 745px;
-
-        .carousel-images {
-          align-items: left;
-        }
-      }
-      .carousel-control {
-        display: none;
-      }
-    }
-  }
-
   .intro {
     max-width: 50%;
     padding: 15px 3px;
@@ -58,5 +31,37 @@
   p {
     font-size: 16px;
     padding: 30px 10px;
+  }
+}
+
+.details {
+  text-align: center;
+
+  h2 {
+    margin: 40px 0;
+  }
+
+  h3 {
+    color: $basic;
+  }
+
+}
+
+.click {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px 0px;
+
+  .hibiscus {
+    // background-image: url("./assets/images/flower.png");
+    background-color: hotpink;
+    height: 170px;
+    width: 170px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+
   }
 }

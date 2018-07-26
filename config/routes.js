@@ -6,7 +6,7 @@ const auth  = require('../controllers/auth');
 const guestbook  = require('../controllers/guestbook');
 // const secureRoute = require('../lib/secureRoute');
 
-router.route('/register')
+router.route('/maremotos')
   .post(auth.register);
 
 router.route('/login')
