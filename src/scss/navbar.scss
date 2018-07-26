@@ -1,10 +1,3 @@
-.navs {
-  // display: flex;
-  // flex-wrap: wrap;
-  // justify-content: center;
-  // width: 1000px;
-
-
   .navbar, .footer {
     text-align: center;
     font-family: $header;
@@ -19,7 +12,6 @@
     button {
       font-family: $header;
       font-size: 35px;
-      color: $additional;
       background-color: transparent;
       border: none;
       margin: 20px;
@@ -27,8 +19,10 @@
       a {
         color: $additional;
         text-decoration: none;
-        // border-radius: 20%;
-      }
+
+        &:hover {
+          color: $bold;
+        }
     }
   }
 }
@@ -36,11 +30,16 @@
 .navbar {
   button {
     background: none;
-    color: $additional;
     border-radius: 20%;
     padding: 7px;
+    color: $additional;
+
+    &:hover {
+      color: $bold;
+    }
   }
 }
+
 
 h6 {
   font-size: 18px;

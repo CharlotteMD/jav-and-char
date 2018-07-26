@@ -1,0 +1,25 @@
+.click {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px 0px;
+
+  .hibiscus {
+    // background-image: url("./assets/images/flower.png");
+    background-color: $bold;
+    height: 170px;
+    width: 170px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: $highlight;
+    border: none;
+  }
+
+}
+
+.rsvp:hover, .celebration:hover, .info:hover, .email:hover {
+    background-color: $highlight;
+    color: $bold;
+}
