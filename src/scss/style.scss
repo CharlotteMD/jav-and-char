@@ -3,6 +3,7 @@
 @import "forms";
 @import "landing";
 @import "weddings";
+@import "buttons";
 
 * {
   max-width: 1000px;
@@ -27,5 +28,11 @@ p {
 }
 
 a {
-  color: $basic;
+  color: $bold;
+  text-decoration: none;
+
+  &:hover {
+    color: $highlight;
+    text-decoration: none;
+  }
 }

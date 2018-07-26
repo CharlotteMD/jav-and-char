@@ -1,7 +1,7 @@
 .form-group {
   input {
-    font-family: $header;
-    font-size: 18px;
+    font-family: $text;
+    font-size: 25px;
     margin: 5px;
   }
 }
@@ -9,7 +9,21 @@
 .main-button {
   padding: 10px;
   margin: 12px;
+  height: 50px;
+  width: 100px;
   font-size: 15px;
   font-weight: bold;
   border-radius: 20%;
+  background-color: $bold;
+  color: $highlight;
+  border: none;
+
+  &:hover {
+    background-color: $highlight;
+    color: $bold;
+  }
+}
+
+.subhead {
+  text-align: center;
 }

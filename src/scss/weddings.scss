@@ -18,10 +18,6 @@
     font-weight: bold;
     text-decoration: underline;
   }
-
-  h5 {
-
-  }
 }
 
 .nikah {
@@ -35,34 +31,48 @@
 .drive {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  // margin: 0 auto;
+
+  .hotels, .park, .address {
+    height: 200px;
+    text-align: left;
+  }
+
+  .hotels {
+    width: 250px;
+  }
+
+  .address {
+    width: 150px;
+    padding-top: 50px;
+  }
+
+  ul {
   justify-content: space-between;
 
   .hotels, .park, .address {
     width: 250px;
     height: 250px;
-    // border: solid 1px $basic;
   }
 
   ul {
-
-
     li {
       padding: 2px;
     }
   }
-
-
-  .park span {
-    color: $basic;
-  }
-
-  .hotels span {
-    font-weight: bold;
-    text-decoration: underline;
-  }
-
 }
 
-.celebrations {
-  margin: 50px;
+  .celebrations {
+    margin: 50px;
+  }
+}
+
+span {
+  color: $basic;
+}
+
+.hotels span, .address span {
+  text-decoration: underline;
+  font-weight: bold;
 }

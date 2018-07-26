@@ -19,20 +19,22 @@ Tidy up styling
 
 Guestbook entirety
 
-Add Shariah info
 Fix guestbook Submit
 Add filestack
 Create guestbook INDEX
 Think about edit/delete for GuestBook
 
+Add Shariah info
+
 Create overall security for site
-Put on firebase
+
 
 DONE
 Fix navbar links
 Add Celebration info
 Buy domain
 Add google map directions to javs
+Put on firebase
 
 // https://images.unsplash.com/photo-1483919114236-01e86550c193?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6be7f345022d0f7f1add3026154987fb&auto=format&fit=crop&w=1950&q=80
 

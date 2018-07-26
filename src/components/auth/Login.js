@@ -44,7 +44,7 @@ class Login extends React.Component {
           errors={this.state.errors}
         />
 
-        <h3>Forgotten the login details? <a href="mailto:javandchar@gmail.com">Please contact Javed or Charlotte.</a></h3>
+        <div className="subhead"><h3>Forgotten the login details? <a href="mailto:javandchar@gmail.com">Please contact Javed or Charlotte.</a></h3></div>
       </div>
     );
   }
