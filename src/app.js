@@ -1,4 +1,4 @@
-import React    from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
@@ -29,17 +29,14 @@ class App extends React.Component {
         <div>
 
           <Navbar />
-          <Link to="/home"><div className="logo"><h1>Jav & Char</h1></div></Link>
+          <Link to="/"><div className="logo"><h1>Jav & Char</h1></div></Link>
 
           <AuthRoutes />
 
-          <Route exact path="/home" component={Landing}/>
+          <Route exact path="/" component={Landing}/>
           <WeddingRoutes />
           <RsvpRoutes />
-          <GuestbookRoutes />
-
-          {/* <Route exact path="/users/:id/edit" component={UserEdit}/> */}
-          {/* <Route exact path="/users/:id" component={UserProfile}/> */}
+          {/* <GuestbookRoutes /> */}
 
           <Footer />
         </div>

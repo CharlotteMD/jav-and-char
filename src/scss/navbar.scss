@@ -6,21 +6,23 @@
 
 
   .navbar, .footer {
+    text-align: center;
     font-family: $header;
-    background-image: url("https://images.unsplash.com/photo-1483919114236-01e86550c193?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6be7f345022d0f7f1add3026154987fb&auto=format&fit=crop&w=1950&q=80");
+    background-image: url("https://images.unsplash.com/photo-1504489324524-16913d6e7975?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ae29f72ba7790d85d292da8da4124b9&auto=format&fit=crop&w=1950&q=80");
     padding: 20px;
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
+    background-size: cover;
 
     button {
       font-family: $header;
       font-size: 35px;
       color: $additional;
-      background-color: $basic;
-      border: $basic solid 1px;
+      background-color: transparent;
+      border: none;
+      margin: 20px;
 
       a {
         color: $additional;
@@ -33,7 +35,7 @@
 
 .navbar {
   button {
-    background: $basic;
+    background: none;
     color: $additional;
     border-radius: 20%;
     padding: 7px;
