@@ -7,6 +7,8 @@
 }
 
 .intro {
+  padding: 10px;
+
   h3 {
     font-size: 16px;
     font-weight: normal;
@@ -37,10 +39,13 @@
   // margin: 0 auto;
 
   .hotels, .park, .address {
-    height: 200px;
-    width:400px;
+    height: 350px;
+    width: 300px;
     text-align: left;
-    padding: 200px;
+    margin: 30px;
+    border: dotted 5px $bold;
+    border-radius: 20%;
+    padding: 10px;
   }
 
   .hotels {
@@ -48,8 +53,9 @@
   }
 
   .address {
-    width: 150px;
-    padding-top: 50px;
+    background-color: $highlight;
+    height: 250px;
+    text-align: center;
   }
 
   ul {
@@ -60,15 +66,14 @@
     height: 250px;
   }
 
-  ul {
-    li {
-      padding: 2px;
-    }
+  li {
+    padding: 2px;
   }
 }
 
   .celebrations {
     margin: 50px;
+    padding: 10px;
   }
 }
 
@@ -78,5 +83,10 @@ span {
 
 .hotels span, .address span {
   text-decoration: underline;
+  font-weight: bold;
+}
+
+.address span {
+  color: $bold;
   font-weight: bold;
 }

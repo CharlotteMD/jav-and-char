@@ -42,8 +42,6 @@ class Weddings extends React.Component {
             <h4>Directions</h4>
 
             <div className="drive">
-              <iframe style={{width: 300, height: 300, margin: 20}} src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJIZ_bO6MAdkgR_7hd3o_H3zs&key=AIzaSyC29Ol986YU38HL1WT-j1U9gZ7wZ0KDhNI" allowfullscreen></iframe>
-
               <div className="address">
                 <p>
                   <span>The Address is:</span><br></br><br></br>
@@ -53,6 +51,9 @@ class Weddings extends React.Component {
                 CR2 7JE
                 </p>
               </div>
+              <iframe style={{width: 300, height: 300, margin: 20}} src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJIZ_bO6MAdkgR_7hd3o_H3zs&key=AIzaSyC29Ol986YU38HL1WT-j1U9gZ7wZ0KDhNI" allowfullscreen></iframe>
+
+
               <div className="hotels">
                 <p><span>Hotels nearby are:</span>
                   <br></br><br></br>
