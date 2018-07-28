@@ -31,13 +31,13 @@ class Weddings extends React.Component {
 
             <p>We invite you to celebrate with us on Sunday 26th August, at Javed’s family home in Croydon.</p>
 
-            <p>Details for timings for the day will follow shortly - watch this space! We hope you will be able to witness our Nikah ceremony and then celebrate with us for the afternoon.</p>
+            <p>Details for timings for the day will follow shortly - watch this space! We hope you will be able to witness our Nikah ceremony and then celebrate with us for the afternoon. Children are welcome (there will be ice-cream and bouncy castles!). Please let us know if you wish to bring a plus one. In any case, please <a href="/nikah/rsvp">RSVP</a> for each member of your party.</p>
 
             <h4>Dress Code</h4>
             <p>The dress code is smart casual - for gentlemen, chinos and a shirt would be perfect.  For ladies, the dress code is a little stricter. In respect of the Muslim tradition, we ask that ladies cover skin. Trousers or a long skirt would be suitable, and if you could cover your shoulders and arms for the ceremony, that would be fab.  Please avoid low cut tops if possible. We hope you will join us on the bouncy castle so no need for anything too fancy!</p>
 
             <h4>Food</h4>
-            <p>All the food and drink will be halal.  Please let us know if you have any other dietary requirements when you <a href="/nikah/rsvp">RSVP</a>.</p>
+            <p>All the food and drink will be halal.  Please let us know if you have any other dietary requirements when you <a href="/nikah/rsvp">RSVP</a>. Please note that this event will be alcohol free in respect of Muslim tradition.</p>
 
             <h4>Directions</h4>
 
