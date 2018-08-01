@@ -31,7 +31,14 @@ class Weddings extends React.Component {
 
             <p>We invite you to celebrate with us on Sunday 26th August, at Javed’s family home in Croydon.</p>
 
-            <p>Details for timings for the day will follow shortly - watch this space! We hope you will be able to witness our Nikah ceremony and then celebrate with us for the afternoon. Children are welcome (there will be ice-cream and bouncy castles!). Please let us know if you wish to bring a plus one. In any case, please <a href="/nikah/rsvp">RSVP</a> for each member of your party.</p>
+            <h4>Timings</h4>
+            <p>We hope you will be able to witness our Nikah ceremony and then celebrate with us for the afternoon.</p>
+            <p>You are <span>welcome from 11am</span> (if you come earlier you will need to help set up!).</p>
+            <p>The Nikah ceremony will start with <span>the arrival of the Bride at 12 noon</span>. The ceremony will last approximately 45 minutes followed by a period for prayer (if you wish). We would love you to all be available to witness our Nikah ceremony.</p>
+            <p>Following prayer time, Javed and his family will host the <a href="/nikah/info">Walima</a> - we can't wait to celebrate with you all afternoon long!</p>
+
+            <h4>Guests</h4>
+            <p>Children are welcome (there will be ice-cream and bouncy castles!). Please let us know if you wish to bring a plus one. In any case, please <a href="/nikah/rsvp">RSVP</a> for each member of your party.</p>
 
             <h4>Dress Code</h4>
             <p>The dress code is smart casual - for gentlemen, chinos and a shirt would be perfect.  For ladies, the dress code is a little stricter. In respect of the Muslim tradition, we ask that ladies cover skin. Trousers or a long skirt would be suitable, and if you could cover your shoulders and arms for the ceremony, that would be fab.  Please avoid low cut tops if possible. We hope you will join us on the bouncy castle so no need for anything too fancy!</p>
@@ -51,8 +58,7 @@ class Weddings extends React.Component {
                 CR2 7JE
                 </p>
               </div>
-              <iframe style={{width: 300, height: 300, margin: 20}} src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJIZ_bO6MAdkgR_7hd3o_H3zs&key=AIzaSyC29Ol986YU38HL1WT-j1U9gZ7wZ0KDhNI" allowfullscreen></iframe>
-
+              <iframe style={{width: 300, height: 300, margin: 20}} src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJffJiO6MAdkgRtF9ot9QTSOs&key=AIzaSyC29Ol986YU38HL1WT-j1U9gZ7wZ0KDhNI" allowfullscreen></iframe>
 
               <div className="hotels">
                 <p><span>Hotels nearby are:</span>
