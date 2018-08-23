@@ -15,6 +15,7 @@ import Landing from './components/info/Landing';
 import WeddingRoutes from './components/info/WeddingRoutes';
 import RsvpRoutes from './components/rsvp/RsvpRoutes';
 import GuestbookRoutes from './components/guestbook/GuestbookRoutes';
+import ThankYouRoutes from './components/thankyous/ThankYouRoutes';
 
 
 // import './index.css';
@@ -37,6 +38,7 @@ class App extends React.Component {
           <WeddingRoutes />
           <RsvpRoutes />
           {/* <GuestbookRoutes /> */}
+          <ThankYouRoutes />
 
           <Footer />
         </div>

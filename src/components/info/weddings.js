@@ -43,6 +43,9 @@ class Weddings extends React.Component {
             <h4>Dress Code</h4>
             <p>The dress code is smart casual - for gentlemen, chinos and a shirt would be perfect.  For ladies, the dress code is a little stricter. In respect of the Muslim tradition, we ask that ladies cover skin. Trousers or a long skirt would be suitable, and if you could cover your shoulders and arms for the ceremony, that would be fab.  Please avoid low cut tops if possible. We hope you will join us on the bouncy castle so no need for anything too fancy!</p>
 
+            <h4>Presents</h4>
+            <p>We are over the moon that so many of you can join us for our special day. In regards to presents, your presence is more than enough.</p>
+
             <h4>Food</h4>
             <p>All the food and drink will be halal.  Please let us know if you have any other dietary requirements when you <a href="/nikah/rsvp">RSVP</a>. Please note that this event will be alcohol free in respect of Muslim tradition.</p>
 
