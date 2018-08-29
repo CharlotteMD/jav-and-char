@@ -22,7 +22,7 @@ class ThankYou extends React.Component {
 
             <h2>Thank you</h2>
             <h3 className="subhead">We had such a lovely day and we are so happy you could share it with us!</h3>
-            <div className="us">
+            <div>
               <Carousel>
                 <Carousel.Item>
                   <div className="carousel">
@@ -63,10 +63,11 @@ class ThankYou extends React.Component {
             <h4 className="message">We were overwhelmed by the love and kindness from you all. Thank you so much for being there. We hope you enjoyed the day as much as we did! Proper thank yous to follow but in the meantime please know how much we love you all and appreciate your support.</h4>
 
             <h4 className="lotsoflove">Lots of love from Jav and Char xxx</h4>
-          </div>}
-
-      </div>
-    );
+          </div>
+        </div>
+      }
+    </div>
+    )
   }
 }
 
