@@ -1,0 +1,26 @@
+[debug] [2018-08-31T16:51:32.902Z] ----------------------------------------------------------------------
+[debug] [2018-08-31T16:51:32.905Z] Command:       /Users/davies2_charlotte/.nvm/versions/node/v10.3.0/bin/node /Users/davies2_charlotte/.nvm/versions/node/v10.3.0/bin/firebase deploy
+[debug] [2018-08-31T16:51:32.905Z] CLI Version:   3.19.1
+[debug] [2018-08-31T16:51:32.905Z] Platform:      darwin
+[debug] [2018-08-31T16:51:32.905Z] Node Version:  v10.3.0
+[debug] [2018-08-31T16:51:32.906Z] Time:          Fri Aug 31 2018 17:51:32 GMT+0100 (BST)
+[debug] [2018-08-31T16:51:32.906Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-31T16:51:32.917Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-31T16:51:32.917Z] > authorizing via signed-in user
+[debug] [2018-08-31T16:51:32.919Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/javandchar2018  
+  
+ Fri Aug 31 2018 17:51:32 GMT+0100 (BST)
+[debug] [2018-08-31T16:51:33.497Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-31T16:51:33.499Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/javandchar2018/tokens  
+  
+ Fri Aug 31 2018 17:51:33 GMT+0100 (BST)
+[debug] [2018-08-31T16:51:34.222Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'javandchar2018'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2018-08-31T16:51:35.116Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/javandchar2018/uploads/-LLFtRQ4iV5NZDuhLkwo?fileCount=28&message=  
+  
+ Fri Aug 31 2018 17:51:35 GMT+0100 (BST)
