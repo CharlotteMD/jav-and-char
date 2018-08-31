@@ -1,5 +1,5 @@
 @media (max-width:600px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-background-color: hotpink;
+
   .navbar, .footer {
 
     button {
@@ -17,15 +17,21 @@ background-color: hotpink;
 }
 
 .carousel {
-  width: 200px;
-  height: 200px;
-  background-color: hotpink;
-}
-
-.carousel-images {
   width: 300px;
   height: 300px;
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
 }
+
+.message {
+  font-family: $text;
+  font-size: 30px;
+}
+
+
 
 
 }
