@@ -59,7 +59,7 @@ class ThankYou extends React.Component {
             <h4 className="lotsoflove">Lots of love from Jav and Char xxx</h4>
           </div>
         </div>
-      
+
     </div>
     )
   }
