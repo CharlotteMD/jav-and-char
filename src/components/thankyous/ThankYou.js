@@ -32,13 +32,13 @@ class ThankYou extends React.Component {
 
                 <Carousel.Item>
                   <div className="carousel">
-                    <img className="carousel-images" alt="Our wedding" src="../assets/images/wed2.jpg" />
+                    <img className="carousel-images" alt="Our wedding" src="../assets/images/wed2.JPG" />
                   </div>
                 </Carousel.Item>
 
                 <Carousel.Item>
                   <div className="carousel">
-                    <img className="carousel-images" alt="Our wedding" src="../assets/images/wed3.jpg" />
+                    <img className="carousel-images" alt="Our wedding" src="../assets/images/wed3.JPG" />
                   </div>
                 </Carousel.Item>
 
@@ -60,7 +60,7 @@ class ThankYou extends React.Component {
                   </div>
                 </Carousel.Item>
               </Carousel>
-            <h4 className="message">We were overwhelmed by the love and kindness from you all. Thank you so much for being there. We hope you enjoyed the day as much as we did! Proper thank yous to follow but in the meantime please know how much we love you all and appreciate your support.</h4>
+            <h4 className="message">We are still buzzing from the weekend! Thank you so much for being there. We were overwhelmed by the love and kindness from you all. We hope you enjoyed the day as much as we did! Proper thank yous to follow but in the meantime please know how much we love you all and appreciate your support.</h4>
 
             <h4 className="lotsoflove">Lots of love from Jav and Char xxx</h4>
           </div>

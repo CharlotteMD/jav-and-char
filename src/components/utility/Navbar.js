@@ -24,9 +24,9 @@ const Navbar = ({ history }) => {
 
             <a className="nav-link" href="/nikah/celebration"><button>Wedding Info</button></a>
 
-            <a className="nav-link" href="/nikah/rsvp"><button>RSVP</button></a>
+            <a className="nav-link" href="/thankyou"><button>Thank You!</button></a>
 
-            
+
 
             <a className="nav-item" href="/" onClick={logout}><button>Logout</button></a>
 
