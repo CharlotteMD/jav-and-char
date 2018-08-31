@@ -16,6 +16,8 @@ const Navbar = ({ history }) => {
       <div className="navs">
         <div className="navbar">
 
+          <a className="nav-link" href="/thankyou"><button>Thank You!</button></a>
+
           { Auth.isAuthenticated() &&
 
           <div>
@@ -32,8 +34,6 @@ const Navbar = ({ history }) => {
           { !Auth.isAuthenticated() &&
 
             <div>
-
-              <a className="nav-link" href="/thankyou"><button>Thank You!</button></a>
 
               <a className="nav-link" href="/login"><button>Login</button></a>
 
