@@ -14,7 +14,7 @@ import AuthRoutes from './components/auth/AuthRoutes';
 import Landing from './components/info/Landing';
 import WeddingRoutes from './components/info/WeddingRoutes';
 import RsvpRoutes from './components/rsvp/RsvpRoutes';
-import GuestbookRoutes from './components/guestbook/GuestbookRoutes';
+// import GuestbookRoutes from './components/guestbook/GuestbookRoutes';
 
 
 // import './index.css';
